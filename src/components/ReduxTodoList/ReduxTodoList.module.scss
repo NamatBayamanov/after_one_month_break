@@ -1,0 +1,18 @@
+.ReduxTodoList {
+  border: 1rem solid palevioletred;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+.out {
+  & .span {
+    color: blue;
+    font-size: 20px;
+    font-weight: 555;
+    cursor: pointer;
+  }
+  & .strike {
+    text-decoration: line-through;
+    color: red;
+  }
+}

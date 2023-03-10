@@ -1,0 +1,19 @@
+.ReactTodoList {
+  border: 1rem solid green;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  margin: 1rem;
+  margin-bottom: 5rem;
+}
+.out {
+  & .text {
+    color: blue;
+    font-size: 20px;
+    font-weight: 555;
+    cursor: pointer;
+  }
+  & .strike {
+    text-decoration: line-through;
+    color: red;
+  }
+}
